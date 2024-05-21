@@ -1,0 +1,53 @@
+/* Global Styles */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    overflow: hidden;
+    user-select: none;
+    flex-direction: column;
+    background-image: url('zello.jpeg'); /* Ganti dengan nama gambar Anda */
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    text-align: center;
+    position: relative;
+    margin-top: -50px; /* Menggeser container ke atas */
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 0 0 20px;
+    color: white; /* Ubah warna teks menjadi putih */
+    text-shadow: -1px -1px 0 #000,  
+                  1px -1px 0 #000,
+                 -1px  1px 0 #000,
+                  1px  1px 0 #000; /* Tambahkan stroke hitam */
+}
+
+#popcat {
+    width: 300px;
+    transition: transform 0.1s ease;
+    cursor: pointer; /* Tambahkan kursor pointer untuk gambar popcat */
+}
+
+#counter {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 20px; /* Pindahkan angka ke bawah */
+    color: white; /* Ubah warna teks menjadi putih */
+    text-shadow: -1px -1px 0 #000,  
+                  1px -1px 0 #000,
+                 -1px  1px 0 #000,
+                  1px  1px 0 #000; /* Tambahkan stroke hitam */
+}
+
+.animate-mirrored {
+    transform: rotate(10deg); /* Atur animasi miring saat diklik */
+}
